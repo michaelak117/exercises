@@ -1,0 +1,37 @@
+div {
+	border: 5px solid red;
+	font-family: Impact
+}
+
+.all {
+	width: 1000px;
+	padding: 10px 10px 10px 10px;
+	margin: 0 auto;
+	border: 5px solid gray;
+}
+.topPosition {
+	background-color: blue;
+	padding: 5px 5px;
+	text-align: center;
+}
+.sideLook {
+	background-color: orange;
+	float: left;
+	padding: 5px 5px;
+		
+}
+
+.meat {
+	background-color: green;
+	text-align: center;
+	padding: 5px 5px;
+	
+}
+
+.bottomStyle {
+	background-color: yellow;
+	clear: both;
+	padding: 5px 5px;
+	text-align: right;
+
+}
