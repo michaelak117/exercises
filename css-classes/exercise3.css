@@ -1,0 +1,118 @@
+div {
+	border: 1px solid black;
+	font-family: Impact
+}
+
+.all {
+	width: 1000px;
+	padding: 0px 10px 10px 10px;
+	margin: 0 auto;
+	border: 5px solid gray;
+
+}
+
+.header{
+	background-color: orange;
+	height: 50px;
+}
+
+.footer {
+	clear: both;
+	background-color: green;
+	height: 50px;
+	margin-top: 0
+
+}
+.center {
+	background-color: yellow;
+height: 375px;
+
+}
+
+.center div{
+	margin-left: 20px;
+	margin-top: 20px;
+	width: 150px;
+	height: 150px;
+	float: left;
+	text-indent: 12px;
+	text-align: 
+}
+.widget {
+	background-color: red;
+
+}
+
+#sub-widget{
+	height: 40%;
+	width: 70%;
+	background-color: white;
+
+}
+
+.widgetblue {
+	background-color: purple;
+	
+
+}
+
+.gadgetblue {
+	background-color: blue;
+	border-radius: 20%;
+
+}
+.gadget {
+	background-color: pink;
+	border-radius: 20%;
+}
+
+
+
+/*Reference from Exercise 2
+.topPosition {
+	height: 30px;
+	background-color: blue;
+	padding: 5px 5px;
+	text-align: center;
+}
+.sideLook {
+	background-color: orange;
+	float: left;
+	padding: 5px 5px;
+		
+}
+
+.meat {
+	background-color: green;
+	text-align: center;
+	padding: 5px 5px;
+	
+}
+
+.bottomStyle {
+	height: 30px;
+	background-color: yellow;
+	padding: 5px 5px;
+	text-align: right;
+
+}
+.brandName {
+	float: left;
+	width: 72px;
+	border: 2px solid black;
+	background-color: pink;
+	display: inline;
+	
+
+}
+.navBar {
+	float: left;
+	width: 900px;
+	display: inline-block;	
+	border: 2px solid black;
+	background-color: purple;
+	
+
+
+
+}

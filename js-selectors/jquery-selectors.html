@@ -47,27 +47,61 @@
 
 $('.item:eq(1)')
 
-$('.text:eq(1)')
+$('.new-item .price')
+$('.new-item').find('.price')
 
 //2.1//
-$('new-item', 'value:first')
+$('.name').val()
 
 
 
 //2.2//
-$('new-item', 'value:eq(1)')
+$('.price').val()
 
 
 
 // partner exercise 2.3 //
 
-$('.form.new-item).on('submit', function (e) {
+$('.form.price').on('submit', function (e) {
   e.preventDefault();
-})
 
-var newItemName = $('.name', this).val(); {
-console.log ('You entered', newItemName);
+  console.log('.price'.val());
 });
+
+//3.1//
+$('.item:eq(1)').append('<p>Buy one, Get one!!</p>')
+
+//3.2//
+$('.item. price:last').remove()
+
+//3.3//
+$('.item:last').append('<div class="price">$121</div>')
+
+//4.1//
+
+$('.item:first')
+  .css('width', '60px')
+  .css('font-size', '25px')
+
+  //4.2//
+
+ $ ('.new-item .name:first')
+  .css('font-size', '30px')
+  .css('background-color', 'lime')
+
+  //4.3//
+  $('body').css('background-color', 'teal')
+  $('#items').css('font-size', '15px')
+  $('#items').css('height', '60px')
+
+  //4.4//
+$('form.new-item').on('submit', function (e) {
+  e.preventDefault();
+
+  $('#items').append('<div class="name">Mitch Thomson</div>')
+});
+
+
 
 
 // TODO
