@@ -1,0 +1,77 @@
+<html>
+<head>
+  <title>jQuery Selectors</title>
+  <style type="text/css">
+    .item {
+      padding: 8px;
+      width: 200px;
+      background: #ccc;
+    }
+    .item.active {
+      background: #cfc;
+    }
+  </style>
+</head>
+<body>
+
+<form class="new-item">
+  <label>Pre-Filled Name Input: </label><input class="name" type="text" value="Mitch Thomson" />
+  <br />
+  <label>Pre-Filled Price Input: </label>
+  <input type="text" class="price" value="Mitch is $19">
+  <br />
+  <input class="submit" type="submit" value="SUBMIT!"></input>
+</form>
+
+<div id="items">
+  <div class="item">
+    <label>Item One</label>
+    <div class="price">$11</div>
+  </div>
+
+  <div class="item active">
+    <label>Item Two</label>
+    <div class="price">$22</div>
+  </div>
+
+  <div class="item">
+    <label>Item Three</label>
+    <div class="price">$33</div>
+  </div>
+</div>
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript">
+
+
+$('.item:eq(1)')
+
+$('.text:eq(1)')
+
+//2.1//
+$('new-item', 'value:first')
+
+
+
+//2.2//
+$('new-item', 'value:eq(1)')
+
+
+
+// partner exercise 2.3 //
+
+$('.form.new-item).on('submit', function (e) {
+  e.preventDefault();
+})
+
+var newItemName = $('.name', this).val(); {
+console.log ('You entered', newItemName);
+});
+
+
+// TODO
+
+</script>
+</body>
+</html>
